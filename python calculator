@@ -1,0 +1,39 @@
+# This is a simple python program for the calculator 
+# Determing Two variables 
+# Soit can take two variables from the user the two variables are x and y
+
+x=float(input("Enter the first number = "))
+y=float(input("Enter the second number = "))
+
+# The below command are used to give the user an insight about what are all the
+# operation available to perform 
+# Variable n is used to collect the data of operation that is to be performed 
+
+
+print('The available operations are ')
+print('1.Addition')
+print('2.Subtraction ')
+print('3.Multiplication ')
+print('4.Division')
+n=int(input("Enter the desired operation to be perfomed = "))
+
+# Determing upon the value of n the operarttion that is to be performed is calculated 
+
+if(n==1):
+  f=x+y
+  print('The addition of two numbers =',f)
+elif(n==2):
+  f=x-y
+  print('The subtraction of two numbers =',f)
+elif(n==3):
+  f=x*y
+  print('The multiplication of two numbers =',f)
+elif(n==4):
+  f=x/y
+  print('The divison of two numbers =',f)
+else:
+  print("Invalid operation")
+
+# The output is stored in variable f which prints the desired result at the output screen 
+# This program runned and verified in google collab notes
+
